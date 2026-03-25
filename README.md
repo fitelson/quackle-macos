@@ -1,4 +1,4 @@
-# QuackleScrabble (macOS)
+# Scrabble (macOS)
 
 A personal Scrabble app for Mac, built with SwiftUI and the [Quackle](https://github.com/quackle/quackle) C++ engine. Identical gameplay and UI to the [iOS version](https://github.com/fitelson/quackle-ios).
 
@@ -46,7 +46,7 @@ xcodebuild -project QuackleScrabble.xcodeproj \
 To install:
 
 ```bash
-cp -R build/Build/Products/Release/QuackleScrabble.app /Applications/
+cp -R build/Build/Products/Release/Scrabble.app /Applications/
 ```
 
 ## Project Structure
@@ -65,6 +65,10 @@ libquackle/       — symlink → ../quackle-ios/libquackle
 data/             — symlink → ../quackle-ios/data
 project.yml       — XcodeGen project spec
 ```
+
+## Acknowledgments
+
+This app uses the [Quackle](https://github.com/quackle/quackle) crossword game AI engine, created by **Jason Katz-Brown**, **John O'Laughlin**, and **John Fultz**. Quackle is released under the [GPL v2+](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html).
 
 ## Related
 
